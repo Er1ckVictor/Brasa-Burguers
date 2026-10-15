@@ -7,7 +7,7 @@ export const SITE = {
   whatsapp: (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '5500000000000').replace(/\D/g, ''),
   deliveryFee: Number(process.env.NEXT_PUBLIC_DELIVERY_FEE ?? 6) || 0,
   phone: '(00) 00000-0000',
-  instagram: '@seu-instagram',
+  instagram: '@instagram',
   instagramUrl: 'https://www.instagram.com/er1ck.v1ctor/',
   addressLine: 'Rua, Bairro - N°',
   cityLine: 'Cidade - UF',
